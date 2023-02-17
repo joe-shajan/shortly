@@ -31,7 +31,7 @@ const ShortUrl = ({ addNewShortendUrl }: Props) => {
 
   return (
     <UrlContainer>
-      <form className="  w-9/12 mx-auto" onSubmit={onSubmitHandler}>
+      <form className="md:w-9/12 w-11/12 mx-auto" onSubmit={onSubmitHandler}>
         <div className="flex gap-6">
           <input
             type="text"

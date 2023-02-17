@@ -6,7 +6,7 @@ type Props = {};
 const NavBar = (props: Props) => {
   return (
     <nav className=" bg-teal-800 py-6">
-      <div className="md:w-9/12 mx-auto flex items-center justify-between ">
+      <div className="md:w-9/12 mx-auto md:p-0 px-2 flex items-center justify-between ">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <span
             data-testid="logo"
