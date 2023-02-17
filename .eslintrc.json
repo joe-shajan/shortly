@@ -1,0 +1,15 @@
+{
+  "extends": ["react-app", "react-app/jest", "prettier"],
+  "rules": {
+    "semi": "warn",
+    "camelcase": "warn",
+    "no-console": "warn"
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "jest": true,
+    "serviceworker": true
+  }
+}
