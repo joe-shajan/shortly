@@ -1,6 +1,7 @@
 export const LoadingSpinner = () => {
   return (
     <svg
+      data-testid="loading-spinner"
       aria-hidden="true"
       className="w-5 h-5 text-gray-200 animate-spin fill-white mx-auto"
       viewBox="0 0 100 101"

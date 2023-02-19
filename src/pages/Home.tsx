@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react';
-import { Header, ShortendUrl, ShortUrl } from '../components';
+
+import { Header, ShortUrl, ShortendUrl } from '../components';
 
 type Props = {};
 
@@ -14,7 +15,7 @@ const Home = (props: Props) => {
         return [...prev, { originalUrl, shortendUrl }];
       });
     },
-    []
+    [],
   );
 
   return (

@@ -16,7 +16,7 @@ const Button = ({ value, isLoading, onClick, disabled }: Props) => {
     <button
       disabled={isLoading || disabled}
       className={classNames}
-      onClick={() => (onClick ? onClick() : null)}
+      onClick={() => onClick?.()}
     >
       {isLoading ? (
         <div className="w-[50PX]">
