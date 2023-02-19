@@ -15,7 +15,7 @@ const Header = (props: Props) => {
       </div>
       {/* svg */}
       <div className="w-4/12 md:h-64 h-36  object-cover">
-        <img src="homepage.svg" className="h-full " alt="svg" />
+        <img src="homepage.svg" className="h-full w-full" alt="svg" />
       </div>
     </div>
   );
